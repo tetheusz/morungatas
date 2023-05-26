@@ -5,7 +5,7 @@
   padding: 0;
 }
 body{
-  background-image: url('/contagem-regressiva/src/img/20201224_120050.jpg');
+  background-image: url('../img/20201224_120050.jpg');
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
   overflow: hidden;
