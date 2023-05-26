@@ -1,0 +1,73 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('/contagem-regressiva/src/img/20201224_120050.jpg');
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+  color: white;
+}
+h1{
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 3rem;
+}
+.container{
+  background-color: rgba(59, 59, 80, 0.822);
+  width: 65%;
+  height: 40vh;
+  margin: 10% auto;
+  border-radius: 12px;
+}
+.regressCount{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.texts{
+  border: 1px solid  rgba(128, 128, 128, 0.815);
+  background-color: rgba(97, 97, 99, 0.534);
+  margin: 1rem;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+.numbers{
+  font-size: 3rem;
+}
+
+
+/* TELA DE CARREGAMENTO */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d3e2;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
