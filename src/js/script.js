@@ -3,7 +3,7 @@ $(window).on("load", function () {
 })
 
 
-const newYear = new Date('june 8, 2023').getTime();
+const newYear = new Date('august 8, 2023').getTime();
 let days, hours, minutes, seconds
 let regressCount = document.getElementById("regressCount")
 
